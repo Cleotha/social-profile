@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+.content{
+    width: 23vw;
+    height: 78vh;
+    background-color: hsl(0, 0%, 12%);
+    text-align: center;
+    border-radius: 7px;
+    margin: 10vh auto;
+    padding: 30px;
+}
+body{
+    background-color: hsl(0, 0%, 8%);
+}
+img{
+    width: 5vw;
+    height: 11vh;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+button{
+    background-color: hsl(0, 0%, 20%);
+    counter-reset: white;
+    width: 19vw;
+    height: 6vh;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    border: none;
+    color: hsl(0, 0%, 100%);
+}
+button:visited{
+    background-color: red;
+}
+button:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 12%);
+    cursor: pointer;
+}
+button:active{
+    background-color: black;
+    color: white;
+}
+h3{
+    line-height: 5px;
+    color: hsl(0, 0%, 100%);
+}
+p{
+    font-size: 11px;
+    color: hsl(0, 0%, 100%)
+}
+.details{
+    margin-bottom: 25px;
+}
