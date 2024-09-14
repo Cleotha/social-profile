@@ -2,20 +2,20 @@
     box-sizing: border-box;
 }
 .content{
-    width: 23vw;
-    height: 78vh;
+    width: 300px;
+    height: 500px;
     background-color: hsl(0, 0%, 12%);
     text-align: center;
     border-radius: 7px;
-    margin: 10vh auto;
+    margin: 40px auto;
     padding: 30px;
 }
 body{
     background-color: hsl(0, 0%, 8%);
 }
 img{
-    width: 5vw;
-    height: 11vh;
+    width: 50px;
+    height: 55px;
     border-radius: 50%;
     display: block;
     margin: auto;
@@ -23,7 +23,7 @@ img{
 button{
     background-color: hsl(0, 0%, 20%);
     counter-reset: white;
-    width: 19vw;
+    width: 200px;
     height: 6vh;
     border-radius: 7px;
     margin-bottom: 10px;
