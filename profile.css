@@ -16,10 +16,11 @@ body{
 }
 img{
     width: 60px;
-    height: 63px;
+    height: 65px;
     border-radius: 50%;
     display: block;
     margin: auto;
+    object-fit: cover;
 }
 button{
     background-color: hsl(0, 0%, 20%);
@@ -29,6 +30,7 @@ button{
     border-radius: 7px;
     margin-bottom: 12px;
     border: none;
+    font-size: 20px;
     color: hsl(0, 0%, 100%);
 }
 button:visited{
@@ -54,7 +56,7 @@ h3{
     color: hsl(0, 0%, 100%);
 }
 p{
-    font-size: 1rem;
+    font-size: 13px;
     color: hsl(0, 0%, 100%)
 }
 .details{
