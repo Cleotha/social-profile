@@ -4,7 +4,7 @@
 .content{
     width: 300px;
     height: 500px;
-    background-color: hsl(0, 0%, 12%);
+    background-color: rgb(255, 244, 244);
     text-align: center;
     border-radius: 7px;
     margin: 60px auto;
@@ -15,29 +15,29 @@ body{
     font-family: 'Inter';
 }
 img{
-    width: 60px;
-    height: 65px;
-    border-radius: 50%;
+    width: 230px;
+    height: 80px;
     display: block;
     margin: auto;
-    object-fit: cover;
+    object-fit: contain;
 }
 button{
     background-color: hsl(0, 0%, 20%);
     counter-reset: white;
-    width: 250px;
+    width: 210px;
     height: 38px;
     border-radius: 7px;
-    margin-bottom: 12px;
+    margin-bottom: 20px;
     border: none;
-    font-size: 20px;
-    color: hsl(0, 0%, 100%);
+    font-family: cursive;
+    font-size: 10px;
+    color: hsla(48, 66%, 54%, 0.827);
 }
 button:visited{
     background-color: red;
 }
 button:hover{
-    background-color: hsl(75, 94%, 57%);
+    background-color: hsl(48, 94%, 60%);
     color: hsl(0, 0%, 12%);
     cursor: pointer;
 }
@@ -46,19 +46,21 @@ button:active{
     color: white;
 }
 .origin{
-    color: hsl(75, 94%, 57%);
+    color: hsl(48, 66%, 34%);
 }
 .about{
-    margin-bottom: 20px
+    color: hsl(0, 2%, 9%);
+    margin-bottom: 20px;
 }
 h3{
-    line-height: 5px;
-    color: hsl(0, 0%, 100%);
+    line-height: 20px;
+    color: hsl(0, 0%, 20%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 p{
     font-size: 13px;
-    color: hsl(0, 0%, 100%)
+    color: hsl(0, 0%, 100%);
 }
 .details{
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 }
