@@ -4,10 +4,6 @@
 .content{
     background-color: rgb(255, 244, 244);
     text-align: center;
-    border-radius: 7px;
-    margin: 60px auto;
-    padding: 30px;
-}
 body{
     background-color: hsl(0, 0%, 8%);
     font-family: 'Inter';
